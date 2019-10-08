@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="b1" layoutX="29.0" layoutY="27.0" mnemonicParsing="false" onAction="#initialize" prefHeight="18.0" prefWidth="85.0" text="task1" />
+      <Button fx:id="b2" layoutX="149.0" layoutY="27.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="77.0" text="task2" />
+      <Button fx:id="b3" layoutX="254.0" layoutY="27.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="85.0" text="task3" />
+      <Button fx:id="b4" layoutX="364.0" layoutY="27.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="77.0" text="task4" />
+      <TextArea fx:id="t1" layoutX="200.0" layoutY="76.0" prefHeight="142.0" prefWidth="192.0" />
+      <TextArea fx:id="t2" layoutX="14.0" layoutY="239.0" prefHeight="52.0" prefWidth="135.0" />
+      <TextArea fx:id="t3" layoutX="229.0" layoutY="239.0" prefHeight="52.0" prefWidth="135.0" />
+      <TextArea fx:id="t4" layoutX="435.0" layoutY="239.0" prefHeight="52.0" prefWidth="135.0" />
+   </children>
+</AnchorPane>
